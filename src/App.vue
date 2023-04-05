@@ -1,14 +1,12 @@
 <template>
-    <v-app class="grey lighten-4">
-      <bar></bar>
-      <v-main>
-        <router-view/>
-      </v-main>
-    </v-app>
+
+  <v-app class="grey lighten-4">
+    <router-view/>
+  </v-app>
 </template>
 
 <script>
-import bar from "@/components/bar.vue";
+//import bar from "@/components/bar.vue";
 
 export default {
   name: 'App',
@@ -19,8 +17,8 @@ export default {
   methods: {
 
   },
-  components: {
-    bar
-  }
+  // components: {
+  //   bar
+  // }
 };
 </script>

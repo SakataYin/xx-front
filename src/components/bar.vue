@@ -43,7 +43,7 @@ export default {
     return {
       drawer: false,
       links: [
-        {icon: 'mdi-view-dashboard', text: 'Dashboard', route: '/index'},
+        {icon: 'mdi-view-dashboard', text: 'Dashboard', route: '/'},
         {icon: 'mdi-folder', text: 'My Projects', route: '/project'},
         {icon: 'mdi-account-multiple', text: 'Team', route: '/team'}
       ]
